@@ -21,7 +21,7 @@ We imported the `@Prop()` decorator. This decorator allows us to map the propert
 
 By using this markup, we are mapping the value of max-value attribute to the `maxValue` property and the value of value attribute to the `value` property. Notice how the kebab case naming style of the attribute names is mapped to the camel case naming style of the class properties.
 
-Finally, the `createStarList()` method dynamically creates the sequence of the stars to display based on maxValue and value properties' value.
+Finally, the `createStarList()` method dynamically creates the sequence of stars to display based on `maxValue` and `value` properties value.
 
 ## The Reactive Nature of Properties on Stencil
 The component's properties are not only a way to set customized initial values through HTML attributes. The mapping between the attributes and the properties is reactive. This means that any change to the attribute fires the render() method so that the component's UI is updated.
