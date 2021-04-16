@@ -17,7 +17,7 @@ You may notice that the `h()` function has been imported from the `@stencil/core
 
 > **Note: The Stencil development environment provides support for hot reloading, so if your environment is running after an npm start, any changes to the project's files will trigger automatic reloading.**
 
-We imported the `@Prop()` decorator. This decorator allows us to map the properties of the component class to attributes in the markup side of the component. We added the `maxValue` property, which represents the maximum number of stars to show, and the v`alue` property, which indicates the current rating value and so the number of full stars to be shown. As you can see, each property has a default value. These properties decorated with `@Prop()` allows us to use the component's markup as follows: `<my-rating max-value="6" value="2"></my-rating>`
+We imported the `@Prop()` decorator. This decorator allows us to map the properties of the component class to attributes in the markup side of the component. We added the `maxValue` property, which represents the maximum number of stars to show, and the `value` property, which indicates the current rating value and thus the number of full stars to be shown. As you can see, each property has a default value. These properties decorated with `@Prop()` allows us to use the component's markup as follows: `<my-rating max-value="6" value="2"></my-rating>`
 
 By using this markup, we are mapping the value of max-value attribute to the `maxValue` property and the value of value attribute to the `value` property. Notice how the kebab case naming style of the attribute names is mapped to the camel case naming style of the class properties.
 
