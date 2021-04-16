@@ -2,13 +2,8 @@ import { Config } from '@stencil/core';
 import { reactOutputTarget } from '@stencil/react-output-target';
 
 export const config: Config = {
-  namespace: 'demo',
+  namespace: 'rating-stencil-component',
   outputTargets: [
-    reactOutputTarget({
-      componentCorePackage: 'rating-stencil-component',
-      proxiesFile: '../rating-stencil-component/src/components.ts',
-      includeDefineCustomElements: true,
-    }),
     {
       type: 'dist',
       esmLoaderPath: '../loader',

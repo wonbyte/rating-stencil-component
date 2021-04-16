@@ -13,13 +13,6 @@
 | `value`    | `value`     |             | `number` | `0`     |
 
 
-## Events
-
-| Event           | Description | Type               |
-| --------------- | ----------- | ------------------ |
-| `ratingUpdated` |             | `CustomEvent<any>` |
-
-
 ----------------------------------------------
 
 *Built with [StencilJS](https://stenciljs.com/)*

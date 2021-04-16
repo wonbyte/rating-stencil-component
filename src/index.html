@@ -6,6 +6,14 @@
     <title>My Rating Component</title>
     <script type="module" src="/build/rating-stencil-component.esm.js"></script>
     <script nomodule src="/build/rating-stencil-component.js"></script>
+    <script>
+      window.onload = function () {
+        let rating = document.getElementById('myRatingComponent');
+        rating.addEventListener('ratingUpdated', function (event) {
+          alert(event.detail.value);
+        });
+      };
+    </script>
   </head>
   <body>
     <my-rating id="myRatingComponent" max-value="6" value="2"></my-rating>
