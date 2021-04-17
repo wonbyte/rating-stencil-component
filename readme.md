@@ -1,7 +1,7 @@
 # Stencil JS
 
 ## About
-It is a building tool that allows you to use a high-level abstraction to define your UI components and to generate pure JavaScript code implementing standard-based Web Components. The compiled code runs in all major browsers since Stencil uses a small polyfill only on browsers that lack some needed features.
+A building tool that allows you to use a high-level abstraction to define your UI components and to generate pure JavaScript code implementing standard-based Web Components. The compiled code runs in all major browsers since Stencil uses a small polyfill only on browsers that lack some needed features.
 
 ## Demo Rating Component
 UI component allowing the user to provide their feedback about a product, an article or whatever by assigning a number of stars.
